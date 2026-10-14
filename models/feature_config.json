@@ -1,0 +1,49 @@
+{
+    "target": "Parts_Per_Hour",
+    "features_used": [
+        "Injection_Temperature",
+        "Injection_Pressure",
+        "Cycle_Time",
+        "Cooling_Time",
+        "Material_Viscosity",
+        "Ambient_Temperature",
+        "Operator_Experience",
+        "Maintenance_Hours",
+        "Shift",
+        "Machine_Type",
+        "Material_Grade",
+        "Day_of_Week",
+        "Machine_Utilization",
+        "Hour_Sin",
+        "Hour_Cos"
+    ],
+    "features_removed": [
+        "Machine_Age",
+        "Efficiency_Score",
+        "Total_Cycle_Time",
+        "Temperature_Pressure_Ratio"
+    ],
+    "categorical_features": [
+        "Shift",
+        "Machine_Type",
+        "Material_Grade",
+        "Day_of_Week"
+    ],
+    "numerical_features": [
+        "Injection_Temperature",
+        "Injection_Pressure",
+        "Cycle_Time",
+        "Cooling_Time",
+        "Material_Viscosity",
+        "Ambient_Temperature",
+        "Operator_Experience",
+        "Maintenance_Hours",
+        "Machine_Utilization",
+        "Hour_Sin",
+        "Hour_Cos"
+    ],
+    "timestamp_features": [
+        "Hour_Sin",
+        "Hour_Cos"
+    ]
+}
